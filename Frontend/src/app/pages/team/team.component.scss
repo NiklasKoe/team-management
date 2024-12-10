@@ -1,0 +1,11 @@
+body {
+    top: 100px;
+}
+
+.content {
+    position: relative;
+    height: calc(100% - 100px);
+    width: 100%;
+    top: 100px;
+    background-color: pink;
+}

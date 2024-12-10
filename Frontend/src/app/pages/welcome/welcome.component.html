@@ -1,0 +1,20 @@
+<div class="background">
+  <div class="container">
+    <div class="text-frame">
+      Willkommen auf der offiziellen Vereinsseite der SG Lelbach / Rhena
+    </div>
+    <img
+      class="image-frame"
+      src="../../../assets/lelbachRhenaLogo.png"
+      alt="Die wunderschönen Jungs vom Hahnenberg (und Murphy)"
+    />
+  </div>
+  <div class="socials-container">
+    <div class="social" *ngFor="let social of socials">
+      <button class="btn">
+        <i class="{{ social.iconPath }}"></i>
+        <!-- <fa-icon [icon]="faXmark"></fa-icon> -->
+      </button>
+    </div>
+  </div>
+</div>

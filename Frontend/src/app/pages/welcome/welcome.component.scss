@@ -1,0 +1,40 @@
+.background {
+  background-image: url("../../../assets/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 70%;
+  height: 30%;
+  background-color: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text-frame {
+    color: white;
+    font-size: 20px;
+  }
+
+  img {
+    max-height: 80%;
+    transform:translateX(20%)
+  }
+}
+
+.socials-container {
+  bottom: 5px;
+  right: 5px;
+  position: absolute;
+  min-width: 150px;
+  min-height: 40px;
+  background-color: var(--blue);
+}
+

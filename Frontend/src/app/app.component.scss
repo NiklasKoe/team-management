@@ -1,0 +1,36 @@
+* {
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: var(--blue);
+    z-index: 1000;
+    margin: 0;
+    //
+    .col {
+        text-align: center;
+        //
+        .menu-item {
+            padding: 15px 25px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius:15px;
+            font-size: 20px;
+        }
+        //
+        .menu-item:hover {
+            background-color: var(--blue-hovered)
+        }
+        //
+        .menu-logo {
+            cursor: pointer;
+            img {
+                max-height: 75px;
+            }
+        }
+    }
+}
